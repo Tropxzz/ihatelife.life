@@ -1,0 +1,21 @@
+[040823 05:17:55:754      0.004] [service]	 Service started
+[040823 05:20:59:073    183.323] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:20:59:074    183.324] [service]	 AA_COMMAND_TASK_KILL, cmd=taskkill /f /t /im windscribeopenvpn_2_5_4.exe
+[040823 05:20:59:135    183.385] [service]	 AA_COMMAND_STOP_WIREGUARD
+[040823 05:20:59:136    183.386] [service]	 AA_COMMAND_ENABLE_DNS_TRAFFIC
+[040823 05:20:59:136    183.386] [service]	 AA_COMMAND_CONNECT_STATUS: 0
+[040823 05:20:59:136    183.386] [service]	 SplitTunnelServiceManager::stop()
+[040823 05:20:59:168    183.418] [service]	 AA_COMMAND_SPLIT_TUNNELING_SETTINGS, isEnabled: 0, isExclude: 0, isKeepLocalSockets: 0, cntApps: 0
+[040823 05:20:59:168    183.418] [service]	 SplitTunnelServiceManager::stop()
+[040823 05:20:59:200    183.450] [service]	 AA_COMMAND_IS_SUPPORTED_ICS
+[040823 05:20:59:206    183.456] [service]	 FirewallFilter::offImpl(), failed delete filters
+[040823 05:20:59:206    183.456] [service]	 AA_COMMAND_FIREWALL_OFF
+[040823 05:20:59:206    183.456] [service]	 AA_COMMAND_SPLIT_TUNNELING_SETTINGS, isEnabled: 0, isExclude: 1, isKeepLocalSockets: 0, cntApps: 0
+[040823 05:20:59:206    183.456] [service]	 SplitTunnelServiceManager::stop()
+[040823 05:20:59:240    183.490] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:20:59:241    183.491] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:20:59:266    183.516] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:21:01:013    185.263] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:21:01:013    185.263] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:34:33:720    997.970] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[040823 05:34:33:723    997.973] [service]	 AA_COMMAND_FIREWALL_STATUS, Off

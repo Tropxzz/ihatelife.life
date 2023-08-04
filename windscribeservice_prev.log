@@ -1,0 +1,33 @@
+[030823 05:20:57:890      0.000] [service]	 Service started
+[030823 05:21:20:603     22.713] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 05:21:20:604     22.714] [service]	 AA_COMMAND_TASK_KILL, cmd=taskkill /f /t /im windscribeopenvpn_2_5_4.exe
+[030823 05:21:20:668     22.778] [service]	 AA_COMMAND_STOP_WIREGUARD
+[030823 05:21:20:668     22.778] [service]	 AA_COMMAND_ENABLE_DNS_TRAFFIC
+[030823 05:21:20:669     22.779] [service]	 AA_COMMAND_CONNECT_STATUS: 0
+[030823 05:21:20:669     22.779] [service]	 SplitTunnelServiceManager::stop()
+[030823 05:21:20:709     22.819] [service]	 AA_COMMAND_SPLIT_TUNNELING_SETTINGS, isEnabled: 0, isExclude: 0, isKeepLocalSockets: 0, cntApps: 0
+[030823 05:21:20:709     22.819] [service]	 SplitTunnelServiceManager::stop()
+[030823 05:21:20:750     22.860] [service]	 AA_COMMAND_IS_SUPPORTED_ICS
+[030823 05:21:20:756     22.866] [service]	 FirewallFilter::offImpl(), failed delete filters
+[030823 05:21:20:756     22.866] [service]	 AA_COMMAND_FIREWALL_OFF
+[030823 05:21:20:756     22.866] [service]	 AA_COMMAND_SPLIT_TUNNELING_SETTINGS, isEnabled: 0, isExclude: 1, isKeepLocalSockets: 0, cntApps: 0
+[030823 05:21:20:756     22.866] [service]	 SplitTunnelServiceManager::stop()
+[030823 05:21:20:799     22.909] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 05:21:20:800     22.910] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 05:21:20:825     22.935] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 05:21:23:039     25.149] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 05:21:23:039     25.149] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 06:25:41:396   3883.506] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 06:25:56:834   3898.944] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 08:01:06:362   9608.472] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 08:01:11:083   9613.193] [service]	 AA_COMMAND_FIREWALL_STATUS, Off
+[030823 08:35:04:435  11646.545] [service]	 AA_COMMAND_CONNECT_STATUS: 0
+[030823 08:35:04:435  11646.545] [service]	 SplitTunnelServiceManager::stop()
+[030823 08:35:04:487  11646.597] [service]	 AA_COMMAND_SPLIT_TUNNELING_SETTINGS, isEnabled: 0, isExclude: 0, isKeepLocalSockets: 0, cntApps: 0
+[030823 08:35:04:487  11646.597] [service]	 SplitTunnelServiceManager::stop()
+[030823 08:35:04:671  11646.781] [service]	 AA_COMMAND_REMOVE_WINDSCRIBE_NETWORK_PROFILES
+[030823 10:49:32:372  19714.482] [service]	 SERVICE_CONTROL_SHUTDOWN message received
+[030823 10:49:32:372  19714.482] [service]	 SplitTunnelServiceManager::stop()
+[030823 10:49:32:373  19714.483] [service]	 SplitTunnelServiceManager::stop - OpenSCM failed to open SCM on server local_pc - 1115: A system shutdown is in progress.
+[030823 10:49:32:373  19714.483] [service]	 Service stopped
+[030823 10:49:32:426  19714.536] [service]	 Ipv6Firewall::enableIPv6(), failed delete filters

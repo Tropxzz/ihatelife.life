@@ -1,0 +1,3 @@
+[210623 10:38:14:183      0.012] [wg_service]	 Windscribe WireGuard service starting
+[210623 10:38:14:188      0.017] [wg_service]	 Starting WireGuard tunnel with config file: C:/Users/warre/AppData/Local/Windscribe/Windscribe2/WindscribeWireguard.conf
+[210623 10:38:25:223       11.1] [wg_service]	 Windscribe WireGuard service stopped
